@@ -36,12 +36,12 @@ public class Make_sentiments
 		ConfigurationBuilder cb= new ConfigurationBuilder();
 		
 		cb.setDebugEnabled(true)
-		   .setOAuthConsumerKey("OBGyJZWHPfsQ7zXDwlBmCl0Z8")
-		   .setOAuthConsumerSecret("GttcHuKNEabPQ8vSvKjUmYSmStlNcKEXe2zOGQBg8Va4AKoaKd")
-		   .setOAuthAccessToken("1294123628-ZONWNgrSitK6TJMGJ9SOK65eB0yqiCqOr69JHU1")
-		   .setOAuthAccessTokenSecret("sWoE7w5SZJlj8WEQiLx0WyRxh37ga3mhRoCgpVb0ioHmI");
+		   .setOAuthConsumerKey("key")
+		   .setOAuthConsumerSecret("secret")
+		   .setOAuthAccessToken("token")
+		   .setOAuthAccessTokenSecret("token");
 		
-		Connection myconn= DriverManager.getConnection("jdbc:mysql://localhost:3306/twitter?autoReconnect=true&useSSL=false","krishna","bangalore99");
+		Connection myconn= DriverManager.getConnection("jdbc:mysql://localhost:3306/twitter?autoReconnect=true&useSSL=false","username","password");
 		System.out.println ("Database connection established");
 		
 		// the mysql insert statement
