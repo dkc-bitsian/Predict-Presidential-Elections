@@ -75,7 +75,7 @@ public class Get_results {
 
 	private static void get_stats() throws SQLException {
 		// TODO Auto-generated method stub
-		Connection myconn= DriverManager.getConnection("jdbc:mysql://localhost:3306/twitter?autoReconnect=true&useSSL=false","krishna","bangalore99");
+		Connection myconn= DriverManager.getConnection("jdbc:mysql://localhost:3306/twitter?autoReconnect=true&useSSL=false","usderName","Password");
 		System.out.println ("Database connection established");
 		int i=0;
 		// the mysql insert statement
