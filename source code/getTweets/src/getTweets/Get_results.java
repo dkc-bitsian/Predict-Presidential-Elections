@@ -43,7 +43,7 @@ public class Get_results {
 	{
 		// TODO Auto-generated method stub
 
-	Connection myconn= DriverManager.getConnection("jdbc:mysql://localhost:3306/twitter?autoReconnect=true&useSSL=false","krishna","bangalore99");
+	Connection myconn= DriverManager.getConnection("jdbc:mysql://localhost:3306/twitter?autoReconnect=true&useSSL=false","username","password");
 	System.out.println ("Database connection established");
 	
 	// the mysql insert statement
